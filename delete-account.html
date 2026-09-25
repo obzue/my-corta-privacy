@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Corta Companion - Account & Data Deletion Request</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #0d1117; color: #e6edf3; }
+        h1, h2 { color: #10b981; }
+        .box { background: #161b22; padding: 20px; border-radius: 8px; border: 1px solid #30363d; margin-bottom: 20px; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border-radius: 4px; border: 1px solid #30363d; background: #0d1117; color: #fff; box-sizing: border-box; }
+        button { background-color: #10b981; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; margin-top: 15px; font-size: 16px; font-weight: bold; }
+        button:hover { background-color: #059669; }
+    </style>
+</head>
+<body>
+    <h1>Account & Data Deletion Request</h1>
+    <p><strong>App Name:</strong> My Corta Companion™</p>
+    <p><strong>Developer:</strong> ObzueAI</p>
+
+    <div class="box">
+        <h2>Request Account Deletion</h2>
+        <p>If you wish to delete your My Corta Companion account and all associated personal data stored on our servers, please fill out the form below or contact our support team at <strong>support@obzueai.com</strong>.</p>
+        
+        <form action="mailto:support@obzueai.com" method="post" enctype="text/plain">
+            <label for="email">Registered Email Address:</label>
+            <input type="email" id="email" name="Email" required placeholder="your-email@example.com">
+
+            <label for="reason">Reason for Request (Optional):</label>
+            <textarea id="reason" name="Reason" rows="3" placeholder="Let us know why you are leaving..."></textarea>
+
+            <button type="submit">Submit Deletion Request</button>
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>What Happens When You Delete Your Account?</h2>
+        <ul>
+            <li><strong>Account Access:</strong> Your login credentials and user profile will be permanently deactivated.</li>
+            <li><strong>Server Data:</strong> All associated cloud storage data, profile information, and sync settings will be deleted within 30 days.</li>
+            <li><strong>Local Device Data:</strong> Local files and voice print templates on your phone/PC can be cleared by uninstalling the application.</li>
+        </ul>
+    </div>
+</body>
+</html>
